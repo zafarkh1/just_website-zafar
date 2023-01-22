@@ -160,6 +160,25 @@
 }
 
 @media (max-width: 500px) {
+	#showcase {
+		margin-bottom: 2rem;
+  .pe-0.rounded-4 {
+    height: 60vh;
+    background: url(../../images/png/showcase-background.png) no-repeat scroll
+      top / cover;
+			img {
+				display: none;
+			}
+    .showcase-left {
+      h1 {
+        font-size: 33px;
+      }
+      p {
+        width: 330px;
+      }
+    }
+  }
+}
 #process {
 	padding-inline: 5px;
 	.container {
@@ -248,11 +267,15 @@
   }
 }
 #client {
-	padding-inline: 5px;
+	padding-inline: 10px;
 	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		p {
 			width: 400px;
-			font-size: 14px;
+			font-size: 16px;
 		}
 		ul.d-flex {
 			display: flex;

@@ -231,6 +231,22 @@ li {
   }
 }
 @media (max-width: 500px) {
+  #showcase {
+    margin-bottom: 2rem;
+  }
+  #showcase .pe-0.rounded-4 {
+    height: 60vh;
+    background: url(../../images/png/showcase-background.png) no-repeat scroll top/cover;
+  }
+  #showcase .pe-0.rounded-4 img {
+    display: none;
+  }
+  #showcase .pe-0.rounded-4 .showcase-left h1 {
+    font-size: 33px;
+  }
+  #showcase .pe-0.rounded-4 .showcase-left p {
+    width: 330px;
+  }
   #process {
     padding-inline: 5px;
   }
@@ -347,11 +363,26 @@ li {
     bottom: 23rem;
   }
   #client {
-    padding-inline: 5px;
+    padding-inline: 10px;
+  }
+  #client .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #client .container p {
     width: 400px;
-    font-size: 14px;
+    font-size: 16px;
   }
   #client .container ul.d-flex {
     display: -webkit-box;
