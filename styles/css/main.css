@@ -278,7 +278,7 @@ li {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    gap: 1rem;
+    gap: 2rem;
   }
   #process .container .process-left {
     width: 100%;
@@ -320,7 +320,7 @@ li {
     display: none;
   }
   #help {
-    padding-block: 5px;
+    padding-block: 3rem;
   }
   #help .container {
     position: relative;
@@ -340,7 +340,10 @@ li {
         -ms-flex-align: center;
             align-items: center;
   }
-  #help .container .help-right h2 {
+  #help .container .help-right .mt-3 {
+    margin-inline: 0.7rem;
+  }
+  #help .container .help-right h2, #help .container .help-right p {
     text-align: center;
   }
   #help .container .help-right .help-dot {
