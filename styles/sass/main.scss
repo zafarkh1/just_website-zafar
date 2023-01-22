@@ -1,0 +1,135 @@
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+li {
+  list-style: none;
+}
+#showcase {
+  .pe-0.rounded-4 {
+    height: 70vh;
+    background: url(../../images/png/showcase-background.png) no-repeat scroll
+      top / cover;
+    .showcase-left {
+      h1 {
+        font-size: 45px;
+      }
+      p {
+        width: 370px;
+      }
+    }
+  }
+}
+
+#carouselExampleIndicators {
+  // background-color: blue;
+  padding-inline: 12rem;
+  // position: absolute;
+  // top: 32rem;
+  .container {
+    background: url(../../images/png/proud-background.png) no-repeat scroll top / cover,#14213d;
+    position: relative;
+    .carousel-inner {
+      .carousel-item {
+        color: white;
+        p {
+          font-size: 17px;
+        }
+      }
+      .carousel-control-next {
+        .fa-solid.fa-arrow-right.fa-2x {
+          position: absolute;
+          right: 2rem;
+					top: 7rem;
+        }
+      }
+			.carousel-control-prev {
+        .fa-solid.fa-arrow-left.fa-2x {
+          position: absolute;
+          left: 2rem;
+					top: 7rem;
+        }
+			}
+    }
+  }
+}
+
+#client {
+  margin-block: 3rem;
+}
+
+#help {
+  padding-block: 5rem;
+  .container {
+    position: relative;
+    .help-image {
+      margin-top: -1.4rem;
+    }
+    .help-right {
+      .solutions {
+        margin-top: 5rem;
+        img {
+          margin-left: -7px;
+        }
+        span {
+          font-weight: 500;
+          margin-left: 15px;
+        }
+        p {
+          width: 160px;
+          margin-top: 0.8rem;
+        }
+      }
+      // .help-dot {
+      //   position: absolute;
+      //   top: -3rem;
+      //   left: 25.3rem;
+      // }
+      .help-ellips {
+        position: absolute;
+        left: -4rem;
+        bottom: 23rem;
+      }
+    }
+  }
+}
+
+#process {
+	.container {
+		// gap: 15rem;
+		.process-left {
+			width: 49%;
+			p {
+				margin-block: 4rem;
+				width: 430px;
+				font-size: 18px;
+			}
+			h2 {
+				font-size: 36px;
+				}
+			a.btn {
+				background-color:  #14213D;;
+			}
+		}
+		.process-right {
+			position: relative;
+			width: 49%;
+			img.ell-1 {
+				position: absolute;
+				right: -1rem;
+				top: -2.1rem;
+			}
+			img.ell-2 {
+				position: absolute;
+				left: -3.8rem;
+				bottom: 22rem;
+			}
+			img.dot {
+				position: absolute;
+				bottom: -5rem;
+				right: -3.3rem;
+			}
+		}
+	}
+}
+@import "./responsive";
