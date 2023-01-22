@@ -232,7 +232,7 @@ li {
 }
 @media (max-width: 500px) {
   #process {
-    padding-inline: 0;
+    padding-inline: 5px;
   }
   #process .container {
     display: -webkit-box;
@@ -285,5 +285,84 @@ li {
   }
   #process .container .process-right img.dot {
     display: none;
+  }
+  #help {
+    padding-block: 5px;
+  }
+  #help .container {
+    position: relative;
+  }
+  #help .container .help-image {
+    margin-top: -0.8rem;
+  }
+  #help .container .help-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #help .container .help-right h2 {
+    text-align: center;
+  }
+  #help .container .help-right .help-dot {
+    display: none;
+  }
+  #help .container .help-right .solutions {
+    margin-top: 5rem;
+  }
+  #help .container .help-right .solutions .web {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #help .container .help-right .solutions img {
+    margin-left: -7px;
+    max-width: 50%;
+    max-height: 50%;
+  }
+  #help .container .help-right .solutions span {
+    font-weight: 500;
+    margin-left: 5px;
+  }
+  #help .container .help-right .solutions p {
+    width: 160px;
+    margin-top: 0.8rem;
+  }
+  #help .container .help-right .help-ellips {
+    position: absolute;
+    left: -4rem;
+    bottom: 23rem;
+  }
+  #client {
+    padding-inline: 5px;
+  }
+  #client .container p {
+    width: 400px;
+    font-size: 14px;
+  }
+  #client .container ul.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 0;
   }
 }/*# sourceMappingURL=main.css.map */
