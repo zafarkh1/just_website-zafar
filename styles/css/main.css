@@ -24,6 +24,9 @@ a.btn {
   background-color: #14213D;
 }
 
+#showcase {
+  margin-top: 3rem;
+}
 #showcase .pe-0.rounded-4 {
   height: 70vh;
   background: url(../../images/png/showcase-background.png) no-repeat scroll top/cover;
