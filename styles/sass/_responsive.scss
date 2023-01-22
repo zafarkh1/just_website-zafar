@@ -163,7 +163,10 @@
 	#showcase {
 		margin-bottom: 2rem;
   .pe-0.rounded-4 {
-    height: 60vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+    height: 40vh;
     background: url(../../images/png/showcase-background.png) no-repeat scroll
       top / cover;
 			img {
@@ -171,13 +174,27 @@
 			}
     .showcase-left {
       h1 {
-        font-size: 33px;
+        font-size: 40px;
       }
       p {
         width: 330px;
       }
     }
   }
+}
+#carouselExampleIndicators {
+  .container {
+    position: relative;
+    .carousel-inner {
+      .carousel-control-next {
+        span.fa-solid.fa-arrow-right.fa-2x {
+					position: absolute;
+					top: 8.5rem;
+        }
+      }
+			}
+    }
+  
 }
 #process {
 	padding-inline: 5px;

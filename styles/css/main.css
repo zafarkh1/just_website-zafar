@@ -235,17 +235,34 @@ li {
     margin-bottom: 2rem;
   }
   #showcase .pe-0.rounded-4 {
-    height: 60vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 40vh;
     background: url(../../images/png/showcase-background.png) no-repeat scroll top/cover;
   }
   #showcase .pe-0.rounded-4 img {
     display: none;
   }
   #showcase .pe-0.rounded-4 .showcase-left h1 {
-    font-size: 33px;
+    font-size: 40px;
   }
   #showcase .pe-0.rounded-4 .showcase-left p {
     width: 330px;
+  }
+  #carouselExampleIndicators .container {
+    position: relative;
+  }
+  #carouselExampleIndicators .container .carousel-inner .carousel-control-next span.fa-solid.fa-arrow-right.fa-2x {
+    position: absolute;
+    top: 8.5rem;
   }
   #process {
     padding-inline: 5px;
