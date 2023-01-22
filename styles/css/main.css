@@ -1,3 +1,16 @@
+.knopka {
+  -webkit-box-shadow: 0 10px 20x rgba(239, 70, 9, 0.919);
+          box-shadow: 0 10px 20x rgba(239, 70, 9, 0.919);
+}
+.knopka:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.knopka:hover {
+  -webkit-box-shadow: 0 0 20x rgba(239, 70, 9, 0.919);
+          box-shadow: 0 0 20x rgba(239, 70, 9, 0.919);
+}
+
 img {
   max-width: 100%;
   max-height: 100%;
