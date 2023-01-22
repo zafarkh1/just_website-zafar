@@ -20,6 +20,10 @@ li {
   list-style: none;
 }
 
+a.btn {
+  background-color: #14213D;
+}
+
 #showcase .pe-0.rounded-4 {
   height: 70vh;
   background: url(../../images/png/showcase-background.png) no-repeat scroll top/cover;
@@ -33,6 +37,7 @@ li {
 
 #carouselExampleIndicators {
   padding-inline: 12rem;
+  margin-top: 2rem;
 }
 #carouselExampleIndicators .container {
   background: url(../../images/png/proud-background.png) no-repeat scroll top/cover, #14213d;
