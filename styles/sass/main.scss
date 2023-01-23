@@ -1,11 +1,11 @@
 .knopka {
-	box-shadow: 0 10px 20x rgba(239, 70, 9, 0.919);
-	&:active {
-		transform: scale(0.9);
-	}
-	&:hover {
-	box-shadow: 0 0 20x rgba(239, 70, 9, 0.919);
-	}
+  box-shadow: 0 10px 20x rgba(239, 70, 9, 0.919);
+  &:active {
+    transform: scale(0.9);
+  }
+  &:hover {
+    box-shadow: 0 0 20x rgba(239, 70, 9, 0.919);
+  }
 }
 img {
   max-width: 100%;
@@ -15,10 +15,10 @@ li {
   list-style: none;
 }
 a.btn {
-	background-color:  #14213D;
+  background-color: #14213d;
 }
 #showcase {
-	margin-top: 3rem;
+  margin-top: 3rem;
   .pe-0.rounded-4 {
     height: 70vh;
     background: url(../../images/png/showcase-background.png) no-repeat scroll
@@ -37,11 +37,13 @@ a.btn {
 #carouselExampleIndicators {
   // background-color: blue;
   padding-inline: 12rem;
-	margin-top: 2rem;
+  margin-top: 2rem;
   // position: absolute;
   // top: 32rem;
   .container {
-    background: url(../../images/png/proud-background.png) no-repeat scroll top / cover,#14213d;
+    background: url(../../images/png/proud-background.png) no-repeat scroll top /
+        cover,
+      #14213d;
     position: relative;
     .carousel-inner {
       .carousel-item {
@@ -54,16 +56,16 @@ a.btn {
         .fa-solid.fa-arrow-right.fa-2x {
           position: absolute;
           right: 2rem;
-					top: 7rem;
+          top: 7rem;
         }
       }
-			.carousel-control-prev {
+      .carousel-control-prev {
         .fa-solid.fa-arrow-left.fa-2x {
           position: absolute;
           left: 2rem;
-					top: 7rem;
+          top: 7rem;
         }
-			}
+      }
     }
   }
 }
@@ -109,41 +111,76 @@ a.btn {
 }
 
 #process {
-	.container {
-		// gap: 15rem;
-		.process-left {
-			width: 49%;
-			p {
-				margin-block: 4rem;
-				width: 430px;
-				font-size: 18px;
-			}
-			h2 {
-				font-size: 36px;
-				}
-			a.btn {
-				background-color:  #14213D;
-			}
-		}
-		.process-right {
-			position: relative;
-			width: 49%;
-			img.ell-1 {
-				position: absolute;
-				right: -1rem;
-				top: -2.1rem;
-			}
-			img.ell-2 {
-				position: absolute;
-				left: -3.8rem;
-				bottom: 22rem;
-			}
-			img.dot {
-				position: absolute;
-				bottom: -5rem;
-				right: -3.3rem;
-			}
-		}
-	}
+  .container {
+    // gap: 15rem;
+    .process-left {
+      width: 49%;
+      p {
+        margin-block: 4rem;
+        width: 430px;
+        font-size: 18px;
+      }
+      h2 {
+        font-size: 36px;
+      }
+      a.btn {
+        background-color: #14213d;
+      }
+    }
+    .process-right {
+      position: relative;
+      width: 49%;
+      img.ell-1 {
+        position: absolute;
+        right: -1rem;
+        top: -2.1rem;
+      }
+      img.ell-2 {
+        position: absolute;
+        left: -3.8rem;
+        bottom: 22rem;
+      }
+      img.dot {
+        position: absolute;
+        bottom: -5rem;
+        right: -3.3rem;
+      }
+    }
+  }
+}
+
+#product {
+  padding-block: 10rem;
+  // position: relative;
+  .container {
+    .carousel.slide {   
+			margin-top: 5rem;
+		 button.carousel-control-prev {
+      position: absolute;
+      top: 4rem;
+      left: 0rem;
+      background-color: #14213d;
+      width: 80px;
+      height: 80px;
+      border-radius: 35px;
+    }
+		 button.carousel-control-next {
+      position: absolute;
+      top: 4rem;
+      right: 0rem;
+      background-color: #14213d;
+      width: 80px;
+      height: 80px;
+      border-radius: 35px;
+    }
+      .carousel-inner {
+        .carousel-item {
+          a {
+            background-color: #14213d;
+          }
+        }
+      }
+    }
+  }
 }
 @import "./responsive";

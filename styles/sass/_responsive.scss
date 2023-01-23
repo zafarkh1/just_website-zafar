@@ -45,6 +45,32 @@
     }
   }
 }
+#product {
+  padding-block: 10rem;
+  // position: relative;
+  .container {
+    .carousel.slide {   
+		 button.carousel-control-prev {
+      position: absolute;
+      top: 4rem;
+      left: -3rem;
+    }
+		 button.carousel-control-next {
+      position: absolute;
+      top: 4rem;
+      right: -3rem;
+    }
+      margin-top: 5rem;
+			.carousel-inner {
+				.carousel-item {
+					h2 {
+						font-size: 28px;
+					}
+				}
+			}
+    }
+  }
+}
 }
 
 @media (max-width: 768px) {
@@ -105,6 +131,36 @@
 			}
 		}
 	}
+	#product {
+  .container {
+    .carousel.slide {   
+		 button.carousel-control-prev {
+      position: absolute;
+      top: 4rem;
+      left: -2rem;
+      width: 50px;
+      height: 50px;
+      border-radius: 30px;
+    }
+		 button.carousel-control-next {
+      position: absolute;
+      top: 4rem;
+      right: -2rem;
+      width: 50px;
+      height: 50px;
+      border-radius: 30px;
+    }
+      margin-top: 5rem;
+			.carousel-inner {
+				.carousel-item {
+					h2 {
+						font-size: 23px;
+					}
+				}
+			}
+    }
+  }
+}
 }
 
 @media (max-width: 576px) {
@@ -154,6 +210,36 @@
 					top: 7rem;
         }
       }
+    }
+  }
+}
+	#product {
+  .container {
+    .carousel.slide {   
+		 button.carousel-control-prev {
+      position: absolute;
+      top: 4rem;
+      left: -1rem;
+      width: 50px;
+      height: 50px;
+      border-radius: 30px;
+    }
+		 button.carousel-control-next {
+      position: absolute;
+      top: 4rem;
+      right: -1rem;
+      width: 50px;
+      height: 50px;
+      border-radius: 30px;
+    }
+      margin-top: 5rem;
+			.carousel-inner {
+				.carousel-item {
+					h2 {
+						font-size: 23px;
+					}
+				}
+			}
     }
   }
 }
@@ -305,5 +391,45 @@
 			padding-left: 0;
 		}
 	}
+}
+	#product {
+		padding-block: 4rem;
+  .container {
+	.product-text {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+    .carousel.slide {   
+			margin-top: 0;
+		 button.carousel-control-prev {
+      position: absolute;
+      top: 4rem;
+      left: -1rem;
+      width: 35px;
+      height: 35px;
+      border-radius: 30px;
+    }
+		 button.carousel-control-next {
+      position: absolute;
+      top: 4rem;
+      right: -1rem;
+      width: 35px;
+      height: 35px;
+      border-radius: 30px;
+    }
+      margin-top: 5rem;
+			.carousel-inner {
+				.carousel-item {
+					h2 {
+						font-size: 20px;
+					}
+					p {
+						font-size: 14px;
+					}
+				}
+			}
+    }
+  }
 }
 }

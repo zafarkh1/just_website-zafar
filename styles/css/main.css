@@ -21,7 +21,7 @@ li {
 }
 
 a.btn {
-  background-color: #14213D;
+  background-color: #14213d;
 }
 
 #showcase {
@@ -108,7 +108,7 @@ a.btn {
   font-size: 36px;
 }
 #process .container .process-left a.btn {
-  background-color: #14213D;
+  background-color: #14213d;
 }
 #process .container .process-right {
   position: relative;
@@ -128,6 +128,34 @@ a.btn {
   position: absolute;
   bottom: -5rem;
   right: -3.3rem;
+}
+
+#product {
+  padding-block: 10rem;
+}
+#product .container .carousel.slide {
+  margin-top: 5rem;
+}
+#product .container .carousel.slide button.carousel-control-prev {
+  position: absolute;
+  top: 4rem;
+  left: 0rem;
+  background-color: #14213d;
+  width: 80px;
+  height: 80px;
+  border-radius: 35px;
+}
+#product .container .carousel.slide button.carousel-control-next {
+  position: absolute;
+  top: 4rem;
+  right: 0rem;
+  background-color: #14213d;
+  width: 80px;
+  height: 80px;
+  border-radius: 35px;
+}
+#product .container .carousel.slide .carousel-inner .carousel-item a {
+  background-color: #14213d;
 }
 
 @media (max-width: 992px) {
@@ -167,6 +195,25 @@ a.btn {
   }
   #help .container .help-right .help-ellips {
     display: none;
+  }
+  #product {
+    padding-block: 10rem;
+  }
+  #product .container .carousel.slide {
+    margin-top: 5rem;
+  }
+  #product .container .carousel.slide button.carousel-control-prev {
+    position: absolute;
+    top: 4rem;
+    left: -3rem;
+  }
+  #product .container .carousel.slide button.carousel-control-next {
+    position: absolute;
+    top: 4rem;
+    right: -3rem;
+  }
+  #product .container .carousel.slide .carousel-inner .carousel-item h2 {
+    font-size: 28px;
   }
 }
 @media (max-width: 768px) {
@@ -209,6 +256,28 @@ a.btn {
     width: 400px;
     font-size: 32px;
   }
+  #product .container .carousel.slide {
+    margin-top: 5rem;
+  }
+  #product .container .carousel.slide button.carousel-control-prev {
+    position: absolute;
+    top: 4rem;
+    left: -2rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+  }
+  #product .container .carousel.slide button.carousel-control-next {
+    position: absolute;
+    top: 4rem;
+    right: -2rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+  }
+  #product .container .carousel.slide .carousel-inner .carousel-item h2 {
+    font-size: 23px;
+  }
 }
 @media (max-width: 576px) {
   #showcase .pe-0.rounded-4 {
@@ -249,6 +318,28 @@ a.btn {
     position: absolute;
     right: 2rem;
     top: 7rem;
+  }
+  #product .container .carousel.slide {
+    margin-top: 5rem;
+  }
+  #product .container .carousel.slide button.carousel-control-prev {
+    position: absolute;
+    top: 4rem;
+    left: -1rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+  }
+  #product .container .carousel.slide button.carousel-control-next {
+    position: absolute;
+    top: 4rem;
+    right: -1rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+  }
+  #product .container .carousel.slide .carousel-inner .carousel-item h2 {
+    font-size: 23px;
   }
 }
 @media (max-width: 500px) {
@@ -436,5 +527,46 @@ a.btn {
         -ms-flex-align: center;
             align-items: center;
     padding-left: 0;
+  }
+  #product {
+    padding-block: 4rem;
+  }
+  #product .container .product-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #product .container .carousel.slide {
+    margin-top: 0;
+    margin-top: 5rem;
+  }
+  #product .container .carousel.slide button.carousel-control-prev {
+    position: absolute;
+    top: 4rem;
+    left: -1rem;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+  }
+  #product .container .carousel.slide button.carousel-control-next {
+    position: absolute;
+    top: 4rem;
+    right: -1rem;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+  }
+  #product .container .carousel.slide .carousel-inner .carousel-item h2 {
+    font-size: 20px;
+  }
+  #product .container .carousel.slide .carousel-inner .carousel-item p {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=main.css.map */
