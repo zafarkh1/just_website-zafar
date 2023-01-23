@@ -542,6 +542,7 @@ a.btn {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    text-align: center;
   }
   #product .container .carousel.slide {
     margin-top: 0;
@@ -563,10 +564,16 @@ a.btn {
     height: 35px;
     border-radius: 30px;
   }
+  #product .container .carousel.slide .carousel-inner .carousel-item {
+    text-align: center;
+  }
   #product .container .carousel.slide .carousel-inner .carousel-item h2 {
     font-size: 20px;
   }
   #product .container .carousel.slide .carousel-inner .carousel-item p {
     font-size: 14px;
+  }
+  #product .container .carousel.slide .carousel-inner .carousel-item .wrapper-carousel .carousel-bolagi {
+    display: none;
   }
 }/*# sourceMappingURL=main.css.map */
