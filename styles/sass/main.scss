@@ -19,7 +19,7 @@ a.btn {
 }
 #showcase {
   margin-top: 3rem;
-  .pe-0.rounded-4 {
+  .pe-0.rounded-0 {
     height: 70vh;
     background: url(../../images/png/showcase-background.png) no-repeat scroll
       top / cover;
@@ -34,7 +34,8 @@ a.btn {
   }
 }
 
-#carouselExampleIndicators {
+#nimadir {
+	#carouselExampleIndicators {
   // background-color: blue;
   padding-inline: 12rem;
   margin-top: 2rem;
@@ -52,14 +53,14 @@ a.btn {
           font-size: 17px;
         }
       }
-      .carousel-control-next {
+      .carousel-control-next.product {
         .fa-solid.fa-arrow-right.fa-2x {
           position: absolute;
           right: 2rem;
           top: 7rem;
         }
       }
-      .carousel-control-prev {
+      .carousel-control-prev.product {
         .fa-solid.fa-arrow-left.fa-2x {
           position: absolute;
           left: 2rem;
@@ -68,6 +69,7 @@ a.btn {
       }
     }
   }
+}
 }
 
 #client {
@@ -150,12 +152,12 @@ a.btn {
 }
 
 #product {
-  padding-block: 10rem;
+  padding-top: 10rem;
   // position: relative;
   .container {
     .carousel.slide {   
 			margin-top: 5rem;
-		 button.carousel-control-prev {
+		 button.carousel-control-prev.product {
       position: absolute;
       top: 4rem;
       left: 0rem;
@@ -164,7 +166,7 @@ a.btn {
       height: 80px;
       border-radius: 35px;
     }
-		 button.carousel-control-next {
+		 button.carousel-control-next.product {
       position: absolute;
       top: 4rem;
       right: 0rem;
@@ -182,5 +184,37 @@ a.btn {
       }
     }
   }
+}
+
+#testimonials {
+	padding-top: 9rem;
+	.carousel.slide {
+		button.carousel-control-next.footer {
+      position: absolute;
+      top: 30rem;
+      right: 0rem;
+      background-color: #14213d;
+      width: 80px;
+      height: 80px;
+      border-radius: 35px;
+    }
+		.carousel-inner {
+			.carousel-item {
+				.wrapper-testimonials {
+					.testimonials-text {
+						h2 {
+							font-size: 36px;
+							margin-bottom: 1.5rem;
+						}
+						p {
+							width: 580px;
+							font-size: 24px;
+							line-height: 34px
+						}
+					}
+				}
+			}
+		}
+	}
 }
 @import "./responsive";

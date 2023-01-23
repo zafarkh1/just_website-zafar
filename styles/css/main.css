@@ -27,37 +27,37 @@ a.btn {
 #showcase {
   margin-top: 3rem;
 }
-#showcase .pe-0.rounded-4 {
+#showcase .pe-0.rounded-0 {
   height: 70vh;
   background: url(../../images/png/showcase-background.png) no-repeat scroll top/cover;
 }
-#showcase .pe-0.rounded-4 .showcase-left h1 {
+#showcase .pe-0.rounded-0 .showcase-left h1 {
   font-size: 45px;
 }
-#showcase .pe-0.rounded-4 .showcase-left p {
+#showcase .pe-0.rounded-0 .showcase-left p {
   width: 370px;
 }
 
-#carouselExampleIndicators {
+#nimadir #carouselExampleIndicators {
   padding-inline: 12rem;
   margin-top: 2rem;
 }
-#carouselExampleIndicators .container {
+#nimadir #carouselExampleIndicators .container {
   background: url(../../images/png/proud-background.png) no-repeat scroll top/cover, #14213d;
   position: relative;
 }
-#carouselExampleIndicators .container .carousel-inner .carousel-item {
+#nimadir #carouselExampleIndicators .container .carousel-inner .carousel-item {
   color: white;
 }
-#carouselExampleIndicators .container .carousel-inner .carousel-item p {
+#nimadir #carouselExampleIndicators .container .carousel-inner .carousel-item p {
   font-size: 17px;
 }
-#carouselExampleIndicators .container .carousel-inner .carousel-control-next .fa-solid.fa-arrow-right.fa-2x {
+#nimadir #carouselExampleIndicators .container .carousel-inner .carousel-control-next.product .fa-solid.fa-arrow-right.fa-2x {
   position: absolute;
   right: 2rem;
   top: 7rem;
 }
-#carouselExampleIndicators .container .carousel-inner .carousel-control-prev .fa-solid.fa-arrow-left.fa-2x {
+#nimadir #carouselExampleIndicators .container .carousel-inner .carousel-control-prev.product .fa-solid.fa-arrow-left.fa-2x {
   position: absolute;
   left: 2rem;
   top: 7rem;
@@ -131,12 +131,12 @@ a.btn {
 }
 
 #product {
-  padding-block: 10rem;
+  padding-top: 10rem;
 }
 #product .container .carousel.slide {
   margin-top: 5rem;
 }
-#product .container .carousel.slide button.carousel-control-prev {
+#product .container .carousel.slide button.carousel-control-prev.product {
   position: absolute;
   top: 4rem;
   left: 0rem;
@@ -145,7 +145,7 @@ a.btn {
   height: 80px;
   border-radius: 35px;
 }
-#product .container .carousel.slide button.carousel-control-next {
+#product .container .carousel.slide button.carousel-control-next.product {
   position: absolute;
   top: 4rem;
   right: 0rem;
@@ -158,6 +158,51 @@ a.btn {
   background-color: #14213d;
 }
 
+#testimonials {
+  padding-top: 9rem;
+}
+#testimonials .carousel.slide button.carousel-control-next.footer {
+  position: absolute;
+  top: 30rem;
+  right: 0rem;
+  background-color: #14213d;
+  width: 80px;
+  height: 80px;
+  border-radius: 35px;
+}
+#testimonials .carousel.slide .carousel-inner .carousel-item .wrapper-testimonials .testimonials-text h2 {
+  font-size: 36px;
+  margin-bottom: 1.5rem;
+}
+#testimonials .carousel.slide .carousel-inner .carousel-item .wrapper-testimonials .testimonials-text p {
+  width: 580px;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+@media (max-width: 1190px) {
+  #testimonials {
+    padding-top: 8rem;
+  }
+  #testimonials .carousel.slide button.carousel-control-next.footer {
+    position: absolute;
+    top: 30rem;
+    right: 0rem;
+    background-color: #14213d;
+    width: 80px;
+    height: 80px;
+    border-radius: 35px;
+  }
+  #testimonials .carousel.slide .carousel-inner .carousel-item .wrapper-testimonials .testimonials-text h2 {
+    font-size: 36px;
+    margin-bottom: 1.5rem;
+  }
+  #testimonials .carousel.slide .carousel-inner .carousel-item .wrapper-testimonials .testimonials-text p {
+    width: 450px;
+    font-size: 23px;
+    line-height: 32px;
+  }
+}
 @media (max-width: 992px) {
   #process {
     padding-inline: 7rem;
@@ -197,17 +242,17 @@ a.btn {
     display: none;
   }
   #product {
-    padding-block: 10rem;
+    padding-top: 10rem;
   }
   #product .container .carousel.slide {
     margin-top: 5rem;
   }
-  #product .container .carousel.slide button.carousel-control-prev {
+  #product .container .carousel.slide button.carousel-control-prev.product {
     position: absolute;
     top: 4rem;
     left: -3rem;
   }
-  #product .container .carousel.slide button.carousel-control-next {
+  #product .container .carousel.slide button.carousel-control-next.product {
     position: absolute;
     top: 4rem;
     right: -3rem;
@@ -215,36 +260,57 @@ a.btn {
   #product .container .carousel.slide .carousel-inner .carousel-item h2 {
     font-size: 28px;
   }
+  #testimonials {
+    padding-top: 8rem;
+  }
+  #testimonials .carousel.slide button.carousel-control-next.footer {
+    position: absolute;
+    top: 20rem;
+    right: 0rem;
+    background-color: #14213d;
+    width: 80px;
+    height: 80px;
+    border-radius: 35px;
+  }
+  #testimonials .carousel.slide .carousel-inner .carousel-item .wrapper-testimonials .testimonials-text h2 {
+    font-size: 36px;
+    margin-bottom: 1.5rem;
+  }
+  #testimonials .carousel.slide .carousel-inner .carousel-item .wrapper-testimonials .testimonials-text p {
+    width: 400px;
+    font-size: 20px;
+    line-height: 32px;
+  }
 }
 @media (max-width: 768px) {
-  #showcase .pe-0.rounded-4 {
+  #showcase .pe-0.rounded-0 {
     width: 100%;
     height: 100vh;
     background: url(../../images/png/showcase-background.png) no-repeat scroll top/cover;
   }
-  #showcase .pe-0.rounded-4 .showcase-left h1 {
+  #showcase .pe-0.rounded-0 .showcase-left h1 {
     font-size: 45px;
   }
-  #showcase .pe-0.rounded-4 .showcase-left p {
+  #showcase .pe-0.rounded-0 .showcase-left p {
     color: black;
     width: 370px;
   }
-  #carouselExampleIndicators {
+  #nimadir #carouselExampleIndicators {
     padding-inline: 6rem;
   }
-  #carouselExampleIndicators .container {
+  #nimadir #carouselExampleIndicators .container {
     position: relative;
   }
-  #carouselExampleIndicators .container .carousel-inner .carousel-item {
+  #nimadir #carouselExampleIndicators .container .carousel-inner .carousel-item {
     color: white;
   }
-  #carouselExampleIndicators .container .carousel-inner .carousel-item h2 {
+  #nimadir #carouselExampleIndicators .container .carousel-inner .carousel-item h2 {
     font-size: 20px;
   }
-  #carouselExampleIndicators .container .carousel-inner .carousel-item p {
+  #nimadir #carouselExampleIndicators .container .carousel-inner .carousel-item p {
     font-size: 14px;
   }
-  #carouselExampleIndicators .container .carousel-inner .carousel-control-next .fa-solid.fa-arrow-right.fa-2x {
+  #nimadir #carouselExampleIndicators .container .carousel-inner .carousel-control-next.product .fa-solid.fa-arrow-right.fa-2x {
     position: absolute;
     right: 2rem;
     top: 7rem;
@@ -259,7 +325,7 @@ a.btn {
   #product .container .carousel.slide {
     margin-top: 5rem;
   }
-  #product .container .carousel.slide button.carousel-control-prev {
+  #product .container .carousel.slide button.carousel-control-prev.product {
     position: absolute;
     top: 4rem;
     left: -2rem;
@@ -267,7 +333,7 @@ a.btn {
     height: 50px;
     border-radius: 30px;
   }
-  #product .container .carousel.slide button.carousel-control-next {
+  #product .container .carousel.slide button.carousel-control-next.product {
     position: absolute;
     top: 4rem;
     right: -2rem;
@@ -278,43 +344,69 @@ a.btn {
   #product .container .carousel.slide .carousel-inner .carousel-item h2 {
     font-size: 23px;
   }
+  #testimonials {
+    padding-top: 5rem;
+  }
+  #testimonials .carousel.slide button.carousel-control-next.footer {
+    position: absolute;
+    top: 38rem;
+    right: 0rem;
+    background-color: #14213d;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+  }
+  #testimonials .carousel.slide .carousel-inner .carousel-item .wrapper-testimonials .testimonials-image {
+    text-align: center;
+  }
+  #testimonials .carousel.slide .carousel-inner .carousel-item .wrapper-testimonials .testimonials-text h2 {
+    font-size: 36px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  #testimonials .carousel.slide .carousel-inner .carousel-item .wrapper-testimonials .testimonials-text p {
+    width: 500px;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+  }
 }
 @media (max-width: 576px) {
-  #showcase .pe-0.rounded-4 {
+  #showcase .pe-0.rounded-0 {
     padding-top: 3rem;
     width: 100%;
     background: url(../../images/png/showcase-background.png) no-repeat scroll top/cover;
   }
-  #showcase .pe-0.rounded-4 .showcase-left {
+  #showcase .pe-0.rounded-0 .showcase-left {
     text-align: center;
   }
-  #showcase .pe-0.rounded-4 .showcase-left h1 {
+  #showcase .pe-0.rounded-0 .showcase-left h1 {
     font-size: 45px;
   }
-  #showcase .pe-0.rounded-4 .showcase-left p {
+  #showcase .pe-0.rounded-0 .showcase-left p {
     color: black;
     width: 370px;
   }
-  #showcase .pe-0.rounded-4 img {
+  #showcase .pe-0.rounded-0 img {
     max-width: 80%;
     max-height: 80%;
   }
-  #carouselExampleIndicators {
+  #nimadir #carouselExampleIndicators {
     padding-inline: 3rem;
   }
-  #carouselExampleIndicators .container {
+  #nimadir #carouselExampleIndicators .container {
     position: relative;
   }
-  #carouselExampleIndicators .container .carousel-inner .carousel-item {
+  #nimadir #carouselExampleIndicators .container .carousel-inner .carousel-item {
     color: white;
   }
-  #carouselExampleIndicators .container .carousel-inner .carousel-item h2 {
+  #nimadir #carouselExampleIndicators .container .carousel-inner .carousel-item h2 {
     font-size: 20px;
   }
-  #carouselExampleIndicators .container .carousel-inner .carousel-item p {
+  #nimadir #carouselExampleIndicators .container .carousel-inner .carousel-item p {
     font-size: 14px;
   }
-  #carouselExampleIndicators .container .carousel-inner .carousel-control-next .fa-solid.fa-arrow-right.fa-2x {
+  #nimadir #carouselExampleIndicators .container .carousel-inner .carousel-control-next.product .fa-solid.fa-arrow-right.fa-2x {
     position: absolute;
     right: 2rem;
     top: 7rem;
@@ -322,7 +414,7 @@ a.btn {
   #product .container .carousel.slide {
     margin-top: 5rem;
   }
-  #product .container .carousel.slide button.carousel-control-prev {
+  #product .container .carousel.slide button.carousel-control-prev.product {
     position: absolute;
     top: 4rem;
     left: -1rem;
@@ -330,7 +422,7 @@ a.btn {
     height: 50px;
     border-radius: 30px;
   }
-  #product .container .carousel.slide button.carousel-control-next {
+  #product .container .carousel.slide button.carousel-control-next.product {
     position: absolute;
     top: 4rem;
     right: -1rem;
@@ -341,12 +433,39 @@ a.btn {
   #product .container .carousel.slide .carousel-inner .carousel-item h2 {
     font-size: 23px;
   }
+  #testimonials {
+    padding-top: 5rem;
+  }
+  #testimonials .carousel.slide button.carousel-control-next.footer {
+    position: absolute;
+    top: 38rem;
+    right: 1rem;
+    background-color: #14213d;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+  }
+  #testimonials .carousel.slide .carousel-inner .carousel-item .wrapper-testimonials .testimonials-image {
+    text-align: center;
+  }
+  #testimonials .carousel.slide .carousel-inner .carousel-item .wrapper-testimonials .testimonials-text h2 {
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  #testimonials .carousel.slide .carousel-inner .carousel-item .wrapper-testimonials .testimonials-text p {
+    margin-inline: 3rem;
+    width: 440px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+  }
 }
 @media (max-width: 500px) {
   #showcase {
     margin-bottom: 2rem;
   }
-  #showcase .pe-0.rounded-4 {
+  #showcase .pe-0.rounded-0 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -360,19 +479,19 @@ a.btn {
     height: 40vh;
     background: url(../../images/png/showcase-background.png) no-repeat scroll top/cover;
   }
-  #showcase .pe-0.rounded-4 img {
+  #showcase .pe-0.rounded-0 img {
     display: none;
   }
-  #showcase .pe-0.rounded-4 .showcase-left h1 {
+  #showcase .pe-0.rounded-0 .showcase-left h1 {
     font-size: 40px;
   }
-  #showcase .pe-0.rounded-4 .showcase-left p {
+  #showcase .pe-0.rounded-0 .showcase-left p {
     width: 330px;
   }
-  #carouselExampleIndicators .container {
+  #nimadir #carouselExampleIndicators .container {
     position: relative;
   }
-  #carouselExampleIndicators .container .carousel-inner .carousel-control-next span.fa-solid.fa-arrow-right.fa-2x {
+  #nimadir #carouselExampleIndicators .container .carousel-inner .carousel-control-next.product span.fa-solid.fa-arrow-right.fa-2x {
     position: absolute;
     top: 8.5rem;
   }
@@ -532,7 +651,7 @@ a.btn {
     padding-left: 0;
   }
   #product {
-    padding-block: 4rem;
+    padding-top: 4rem;
   }
   #product .container .product-text {
     display: -webkit-box;
@@ -551,7 +670,7 @@ a.btn {
     margin-top: 2rem !important;
     margin-top: 5rem;
   }
-  #product .container .carousel.slide button.carousel-control-prev {
+  #product .container .carousel.slide button.carousel-control-prev.product {
     position: absolute;
     top: 2.3rem;
     left: -1rem;
@@ -559,7 +678,7 @@ a.btn {
     height: 35px;
     border-radius: 30px;
   }
-  #product .container .carousel.slide button.carousel-control-next {
+  #product .container .carousel.slide button.carousel-control-next.product {
     position: absolute;
     top: 2.3rem;
     right: -1rem;
@@ -578,5 +697,32 @@ a.btn {
   }
   #product .container .carousel.slide .carousel-inner .carousel-item .wrapper-carousel .carousel-bolagi {
     display: none;
+  }
+  #testimonials {
+    padding-top: 3rem;
+  }
+  #testimonials .carousel.slide button.carousel-control-next.footer {
+    position: absolute;
+    top: 54rem;
+    right: 1rem;
+    background-color: #14213d;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+  }
+  #testimonials .carousel.slide .carousel-inner .carousel-item .wrapper-testimonials .testimonials-image {
+    text-align: center;
+  }
+  #testimonials .carousel.slide .carousel-inner .carousel-item .wrapper-testimonials .testimonials-text h2 {
+    font-size: 28px;
+    margin-bottom: 1.2rem;
+    text-align: center;
+  }
+  #testimonials .carousel.slide .carousel-inner .carousel-item .wrapper-testimonials .testimonials-text p {
+    margin-inline: 1rem;
+    width: 440px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
   }
 }/*# sourceMappingURL=main.css.map */
