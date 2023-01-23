@@ -404,14 +404,17 @@ a.btn {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    text-align: center;
   }
   #process .container .process-left p {
     margin-block: 1.4rem;
-    width: 390px;
+    width: 350px;
     font-size: 14px;
+    margin-inline: 2rem !important;
   }
   #process .container .process-left h2 {
     font-size: 30px;
+    width: 380px;
   }
   #process .container .process-right {
     padding-inline: 1rem;
@@ -513,7 +516,7 @@ a.btn {
             align-items: center;
   }
   #client .container p {
-    width: 400px;
+    width: 360px;
     font-size: 16px;
   }
   #client .container ul.d-flex {
@@ -545,7 +548,7 @@ a.btn {
     text-align: center;
   }
   #product .container .carousel.slide {
-    margin-top: 0;
+    margin-top: 2rem !important;
     margin-top: 5rem;
   }
   #product .container .carousel.slide button.carousel-control-prev {
