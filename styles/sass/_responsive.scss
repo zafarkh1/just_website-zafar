@@ -602,7 +602,7 @@
 	.carousel.slide {
 		button.carousel-control-next.footer {
       position: absolute;
-      top: 54rem;
+      top: 52rem;
       right: 1rem;
       background-color: #14213d;
       width: 40px;
@@ -622,10 +622,11 @@
 							text-align: center;
 						}
 						p {
-							margin-inline: 1rem;
-							width: 440px;
-							font-size: 18px;
-							line-height: 24px;
+							text-align: left;
+							margin-left: 0rem;
+							width: 370px;
+							font-size: 16px;
+							line-height: 21px;
 							text-align: center;
 						}
 					}
